@@ -71,7 +71,7 @@ The results page displays the classification outcome along with relevant threat 
 ### Architecture Overview
 PhishGuard AI is built on a modular architecture consisting of a Streamlit-based user interface, a Flask-powered backend, a machine learning inference engine for email analysis, and a rule-based URL threat detection module. Incoming emails and URLs are analyzed through specialized security pipelines that identify phishing indicators, assess risk levels, and deliver real-time, explainable threat intelligence to help users make informed security decisions.
 
-System Architecture Diagram
+### System Architecture Diagram
 <div align="center">
 <img src="https://github.com/user-attachments/assets/fdab1172-296e-4d17-9991-28751351393a" width="650"/>
 </div>
@@ -113,6 +113,11 @@ System Architecture Diagram
 4. The trained Logistic Regression model analyzes the extracted features.
 5. The model predicts whether the email is **Phishing** or **Safe**.
 6. A confidence score is generated and displayed to the user.
+The email detection model was trained on the CEAS_08 dataset using TF-IDF feature extraction and Logistic Regression.
+Performance was evaluated using an 80/20 train-test split.
+Metric          	Score
+Accuracy	        99.27%
+Precision	        99%
 
 ### URL Detection Pipeline
 1. User submits a URL for analysis.
@@ -126,10 +131,65 @@ System Architecture Diagram
 4. A risk score is calculated based on identified indicators.
 5. The final classification and detection reasons are presented to the user.
 
-ML Workflow Diagram
+### ML Workflow Diagram
 <div align="center">
 <img src="https://github.com/user-attachments/assets/d7f765d6-f819-4dea-8c37-c698c6c28eca" width="650"/>
 </div>
+
+## Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-username/phishguard-ai.git
+cd phishguard-ai
+```
+
+### 2. Create a Virtual Environment
+```bash
+python -m venv venv
+```
+
+### 3. Activate the Virtual Environment
+**Windows**
+```bash
+venv\Scripts\activate
+```
+**Mac/Linux**
+```bash
+source venv/bin/activate
+```
+
+### 4. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 5. Train the Email Detection Model
+```bash
+cd backend
+python model.py
+```
+
+### 6. Start the Flask Backend
+```bash
+python app.py
+```
+
+### 7. Launch the Streamlit Frontend
+Open a new terminal:
+```bash
+cd frontend
+streamlit run app_ui.py
+```
+The application will be available locally in your browser.
+
+## Future Improvements
+* Train and integrate a machine learning-based URL phishing detection model using modern phishing URL datasets.
+* Improve email detection accuracy by combining multiple and more recent phishing email datasets.
+* Enhance URL detection performance using larger and up-to-date phishing URL datasets.
+* Integrate threat intelligence platforms such as VirusTotal and PhishTank for real-time threat verification.
+* Add domain reputation, domain age, and blacklist analysis for improved URL assessment.
+* Deploy the application to a cloud platform for public accessibility and scalability.
 
 
 
