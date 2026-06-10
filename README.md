@@ -41,16 +41,16 @@ https://github.com/user-attachments/assets/7fb5750b-b103-43fe-8eae-2a0d975c1a79
 ### Home Page
 The landing page introduces the platform and provides users with quick access to phishing detection features.
 <img width="1837" height="915" alt="Screenshot 2026-06-06 233955" src="https://github.com/user-attachments/assets/cdacb59d-7e39-4b48-85cd-a0ea881008c6" />
-<img width="1831" height="921" alt="Screenshot 2026-06-06 234151" src="https://github.com/user-attachments/assets/b74e4c1c-b762-4679-985c-3cb07ab9db9b" />
-<img width="1825" height="893" alt="Screenshot 2026-06-06 234124" src="https://github.com/user-attachments/assets/b9f29984-a7ce-4ec4-abaa-bc9797b85f32" />
-<img width="1823" height="644" alt="Screenshot 2026-06-06 234100" src="https://github.com/user-attachments/assets/abbf8dca-6b2c-425a-b13e-f6f955056a93" />
 <img width="1824" height="581" alt="Screenshot 2026-06-06 234029" src="https://github.com/user-attachments/assets/8e8524e9-034e-4c7a-95c6-6c410e96c970" />
+<img width="1823" height="644" alt="Screenshot 2026-06-06 234100" src="https://github.com/user-attachments/assets/abbf8dca-6b2c-425a-b13e-f6f955056a93" />
+<img width="1825" height="893" alt="Screenshot 2026-06-06 234124" src="https://github.com/user-attachments/assets/b9f29984-a7ce-4ec4-abaa-bc9797b85f32" />
+<img width="1831" height="921" alt="Screenshot 2026-06-06 234151" src="https://github.com/user-attachments/assets/b74e4c1c-b762-4679-985c-3cb07ab9db9b" />
 
 
 ### Select Page - Email or URL
 Users can select whether they want to analyze email or url.
-<img width="1829" height="925" alt="Screenshot 2026-06-06 234406" src="https://github.com/user-attachments/assets/1d8fca39-4c13-43de-872c-400bda469d12" />
 <img width="1832" height="933" alt="Screenshot 2026-06-06 234339" src="https://github.com/user-attachments/assets/d313c6af-45f6-4d9b-a216-933deedd0c83" />
+<img width="1829" height="925" alt="Screenshot 2026-06-06 234406" src="https://github.com/user-attachments/assets/1d8fca39-4c13-43de-872c-400bda469d12" />
 
 
 ### Email Phishing Analysis
@@ -66,7 +66,8 @@ Users can enter a URL to determine whether it is safe or potentially malicious b
 ### Prediction Results
 The results page displays the classification outcome along with relevant threat insights and recommendations.
 <img width="1837" height="936" alt="Screenshot 2026-06-06 235251" src="https://github.com/user-attachments/assets/640fc72c-9f53-4131-a51d-fce36e9b71e0" />
-<img width="1825" height="925" alt="Screenshot 2026-06-06 235712" src="https://github.com/user-attachments/assets/1750064e-6ae7-4500-b680-212ac139ebbb" />
+<img width="1822" height="933" alt="Screenshot 2026-06-06 235450" src="https://github.com/user-attachments/assets/7b694d07-1777-4b78-a772-476e5c608ad3" />
+
 
 
 
