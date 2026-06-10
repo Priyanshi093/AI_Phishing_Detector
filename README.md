@@ -49,7 +49,6 @@ The landing page introduces the platform and provides users with quick access to
 
 ### Select Page - Email or URL
 Users can select whether they want to analyze email or url.
-<img width="1832" height="933" alt="Screenshot 2026-06-06 234339" src="https://github.com/user-attachments/assets/d313c6af-45f6-4d9b-a216-933deedd0c83" />
 <img width="1829" height="925" alt="Screenshot 2026-06-06 234406" src="https://github.com/user-attachments/assets/1d8fca39-4c13-43de-872c-400bda469d12" />
 
 
