@@ -113,9 +113,9 @@ PhishGuard AI is built on a modular architecture consisting of a Streamlit-based
 6. A confidence score is generated and displayed to the user.
 The email detection model was trained on the CEAS_08 dataset using TF-IDF feature extraction and Logistic Regression.
 Performance was evaluated using an 80/20 train-test split.
-Metric          	Score
-Accuracy	        99.27%
-Precision	        99%
+* Metric :	Score
+* Accuracy : 99.27%
+* Precision	: 99%
 
 ### URL Detection Pipeline
 1. User submits a URL for analysis.
@@ -138,8 +138,8 @@ Precision	        99%
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/phishguard-ai.git
-cd phishguard-ai
+git clone https://github.com/Priyanshi093/AI_Phishing_Detector
+cd AI_Phishing_Detector
 ```
 
 ### 2. Create a Virtual Environment
