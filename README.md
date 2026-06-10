@@ -68,6 +68,10 @@ The results page displays the classification outcome along with relevant threat 
 <img width="1837" height="936" alt="Screenshot 2026-06-06 235251" src="https://github.com/user-attachments/assets/640fc72c-9f53-4131-a51d-fce36e9b71e0" />
 <img width="1822" height="933" alt="Screenshot 2026-06-06 235450" src="https://github.com/user-attachments/assets/7b694d07-1777-4b78-a772-476e5c608ad3" />
 
+### Architecture Overview
+PhishGuard AI follows a modular architecture consisting of a Streamlit-based frontend, data preprocessing layer, machine learning inference engine, and prediction modules for both email and URL phishing detection. User inputs are processed through dedicated analysis pipelines, where machine learning models evaluate potential threats and return real-time classification results through an intuitive interface.
+<img width="1024" height="1536" alt="architecture_diagram" src="https://github.com/user-attachments/assets/683b879a-9b92-41f9-960e-55c9c36a4fcf" />
+
 
 
 
