@@ -76,32 +76,32 @@ PhishGuard AI is built on a modular architecture consisting of a Streamlit-based
 
 ## Technology Stack
 ### Frontend
--Streamlit
--HTML
--CSS
+* Streamlit
+* HTML
+* CSS
 
 ### Backend
--Flask
--Python
+* Flask
+* Python
 
 ### Machine Learning
--Scikit-learn
--TF-IDF Vectorizer
--Logistic Regression
+* Scikit-learn
+* TF-IDF Vectorizer
+* Logistic Regression
 
 ### Data Processing
 * Pandas
 * NumPy
 
 ### URL Threat Analysis
--RapidFuzz
--Regular Expressions (Regex)
--urllib.parse
+* RapidFuzz
+* Regular Expressions (Regex)
+* urllib.parse
 
 ### Development Tools
--Git
--GitHub
--VS Code
+* Git
+* GitHub
+* VS Code
 
 
 
