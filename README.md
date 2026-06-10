@@ -70,6 +70,8 @@ The results page displays the classification outcome along with relevant threat 
 
 ### Architecture Overview
 PhishGuard AI is built on a modular architecture consisting of a Streamlit-based user interface, a Flask-powered backend, a machine learning inference engine for email analysis, and a rule-based URL threat detection module. Incoming emails and URLs are analyzed through specialized security pipelines that identify phishing indicators, assess risk levels, and deliver real-time, explainable threat intelligence to help users make informed security decisions.
+
+System Architecture Diagram
 <div align="center">
 <img src="https://github.com/user-attachments/assets/fdab1172-296e-4d17-9991-28751351393a" width="650"/>
 </div>
@@ -102,6 +104,33 @@ PhishGuard AI is built on a modular architecture consisting of a Streamlit-based
 * Git
 * GitHub
 * VS Code
+
+## Machine Learning Workflow
+### Email Detection Pipeline
+1. User submits email content through the Streamlit interface.
+2. Email text is preprocessed and combined into a single input string.
+3. The TF-IDF Vectorizer converts textual content into numerical feature vectors.
+4. The trained Logistic Regression model analyzes the extracted features.
+5. The model predicts whether the email is **Phishing** or **Safe**.
+6. A confidence score is generated and displayed to the user.
+
+### URL Detection Pipeline
+1. User submits a URL for analysis.
+2. The system extracts structural and security-related URL features.
+3. Multiple security checks are performed, including:
+   * Suspicious keyword detection
+   * Brand impersonation analysis
+   * URL shortener detection
+   * HTTPS verification
+   * Domain pattern analysis
+4. A risk score is calculated based on identified indicators.
+5. The final classification and detection reasons are presented to the user.
+
+ML Workflow Diagram
+<div align="center">
+<img src="https://github.com/user-attachments/assets/d7f765d6-f819-4dea-8c37-c698c6c28eca" width="650"/>
+</div>
+
 
 
 
