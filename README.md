@@ -64,7 +64,6 @@ Users can enter a URL to determine whether it is safe or potentially malicious b
 
 ### Prediction Results
 The results page displays the classification outcome along with relevant threat insights and recommendations.
-<img width="1837" height="936" alt="Screenshot 2026-06-06 235251" src="https://github.com/user-attachments/assets/640fc72c-9f53-4131-a51d-fce36e9b71e0" />
 <img width="1822" height="933" alt="Screenshot 2026-06-06 235450" src="https://github.com/user-attachments/assets/7b694d07-1777-4b78-a772-476e5c608ad3" />
 
 ### Architecture Overview
