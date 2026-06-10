@@ -121,11 +121,11 @@ Performance was evaluated using an 80/20 train-test split.
 1. User submits a URL for analysis.
 2. The system extracts structural and security-related URL features.
 3. Multiple security checks are performed, including:
-   * Suspicious keyword detection
-   * Brand impersonation analysis
-   * URL shortener detection
-   * HTTPS verification
-   * Domain pattern analysis
+ * Suspicious keyword detection
+ * Brand impersonation analysis
+ * URL shortener detection
+ * HTTPS verification
+ * Domain pattern analysis
 4. A risk score is calculated based on identified indicators.
 5. The final classification and detection reasons are presented to the user.
 
